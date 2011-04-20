@@ -1,0 +1,386 @@
+
+#ann {
+background:#F8F8F5 none repeat scroll 0 0;
+border-color:#D2DACE;
+border-style:solid;
+border-width:1px 0;
+line-height:30px;
+margin:5px 0 10px;
+padding:2px 5px;
+}
+#ann dl {
+overflow:hidden;
+}
+#ann dt {
+background:transparent url(/bp/images/fervor/ann_icon.gif) no-repeat scroll 0 50%;
+float:left;
+font-weight:700;
+text-indent:2em;
+width:5em;
+}
+#ann dd {
+margin-left:30px;
+}
+#ann li {
+padding-left:10px;
+white-space:nowrap;
+}
+#ann em {
+color:#666666;
+font-size:0.83em;
+margin-left:5px;
+}
+#annbody {
+height:30px;
+overflow:hidden;
+padding-right:16px;
+}
+.forumcount {
+margin-left:16px;
+}
+.forumlinks, .forumimglink, .forumtxtlink {
+border-top:1px solid #D2DACE;
+padding:6px;
+}
+.forumlinks ul li {
+float:left;
+height:50px;
+line-height:1.4em;
+width:49%;
+}
+.forumimglink a {
+margin-right:8px;
+}
+.forumimglink img {
+margin:2px 0;
+}
+.forumlogo {
+float:left;
+padding-top:2px;
+width:100px;
+}
+.forumcontent {
+height:50px;
+padding-right:18px;
+}
+.forumcontent p {
+color:#666666;
+height:17px;
+overflow:hidden;
+}
+.forumtxtlink li {
+float:left;
+margin-right:5px;
+overflow:hidden;
+white-space:nowrap;
+width:8em;
+}
+#online h3 {
+font-weight:400;
+}
+#online h3 a, #online h3 em, #online h3 strong {
+font-weight:700;
+}
+.feed {
+border-top:3px solid #D2DACE;
+}
+#onlinelist {
+}
+#onlinelist dt, #onlinelist dd {
+border-top:1px solid #D2DACE;
+padding:1em;
+}
+#onlinelist dd ul li {
+float:left;
+height:14px;
+line-height:14px;
+margin:4px 0;
+width:20%;
+}
+#onlinelist dt img, #onlinelist dd img {
+vertical-align:middle;
+}
+#sidebar_img {
+background:transparent url(/bp/images/fervor/sidebar_toggle.gif) no-repeat scroll 100% 5px;
+color:#009999;
+display:inline;
+float:right;
+margin:0 6px;
+padding:6px 25px 6px 6px;
+position:relative;
+z-index:98;
+}
+.collapsed_no:hover {
+background-position:100% -35px !important;
+text-decoration:none;
+}
+.collapsed_yes {
+background-position:100% -75px !important;
+}
+.collapsed_yes:hover {
+background-position:100% -115px !important;
+text-decoration:none;
+}
+.textinfolist li {
+margin-bottom:2px;
+}
+.side .textinfolist li a {
+color:#444444;
+text-decoration:none;
+}
+.side .textinfolist li a:hover {
+text-decoration:underline;
+}
+.side_poll li {
+line-height:1.8em;
+}
+.side_trade li {
+padding-bottom:5px;
+}
+.side_trade li strong {
+float:left;
+height:auto;
+text-align:center;
+width:80px;
+}
+.side_type {
+border-bottom:1px solid;
+height:23px;
+margin:0 4px;
+}
+.side_type h4 {
+border:1px solid;
+color:#999999;
+cursor:pointer;
+float:left;
+font-weight:300;
+height:22px;
+line-height:22px;
+margin:0 0 -1px 4px;
+padding:0 4px;
+}
+.side_type h4.current {
+background:#E8ECE6 none repeat scroll 0 0;
+border-bottom:1px none #E8ECE6;
+color:#009999;
+font-weight:700;
+height:23px;
+margin-bottom:1px;
+}
+.combine h4 {
+display:none;
+}
+h3.requesttabs {
+color:#009999;
+font-weight:700;
+height:22px;
+line-height:22px;
+padding:4px 6px;
+}
+.requesttabs span {
+color:#999999;
+float:right;
+font-weight:300;
+}
+.with_side .side h3.requesttabs a {
+color:#999999;
+font-weight:300;
+margin:0 4px;
+text-decoration:none;
+}
+.with_side .side h3.requesttabs a:hover {
+text-decoration:underline;
+}
+.with_side .side h3.requesttabs a.current {
+color:#444444;
+font-weight:700;
+}
+#headsearch em {
+color:#009999;
+font-size:20px;
+margin-right:10px;
+}
+#qihoosearch input, #gform input#q {
+margin:6px 0;
+}
+#hot {
+margin-bottom:20px;
+}
+#hot h3 {
+color:#999999;
+font-size:14px;
+margin-bottom:10px;
+}
+#hot .desc {
+color:#666666;
+}
+#hot .desc a {
+color:#009999;
+}
+#hot .cite, #hot cite, #hot cite a {
+color:#999999;
+}
+#hot dt, #hot li {
+background:transparent url(/bp/images/fervor/dot_c.gif) no-repeat scroll 0 50%;
+position:relative;
+}
+#hot_img {
+border-right:1px dashed #D2DACE;
+float:left;
+padding-right:14px;
+width:200px;
+}
+#hot_img img {
+border:1px solid #D2DACE;
+height:150px;
+margin-bottom:1em;
+padding:2px;
+width:200px;
+}
+#hot_img h2 {
+position:relative;
+}
+#hot_img .desc {
+padding:5px 0;
+}
+.img #hot_main {
+float:right;
+margin-left:-230px;
+width:100%;
+}
+.img dl, .img ul {
+margin-left:230px;
+}
+#hot dt strong {
+margin-right:1em;
+}
+#hot dl {
+border-top:1px dashed #D2DACE;
+}
+#hot dt, #hot dd {
+padding-left:10px;
+}
+#hot dt {
+background-position:0 15px;
+padding-top:8px;
+}
+#hot dd {
+border-bottom:1px dashed #D2DACE;
+color:#666666;
+padding-bottom:8px;
+}
+#hot ul {
+border-bottom:1px dashed #D2DACE;
+padding:8px 0;
+}
+#hot li {
+float:left;
+height:22px;
+line-height:22px;
+overflow:hidden;
+text-indent:10px;
+white-space:nowrap;
+width:49.5%;
+}
+#hot .deloption {
+background-color:#FFFFFF;
+border:3px solid #FFFFFF;
+margin:0;
+position:absolute;
+right:0;
+}
+.taglist {
+}
+.taglist a {
+height:30px;
+line-height:30px;
+margin-right:20px;
+}
+#infoside .taglist a {
+height:22px;
+line-height:22px;
+margin-right:10px;
+}
+a.tagl1, a.tagl2 {
+color:#666666 !important;
+font-size:12px;
+}
+a.tagl2 {
+color:#999999 !important;
+}
+a.tagl3 {
+color:#009900 !important;
+font-size:14px;
+}
+a.tagl4 {
+color:#0099CC !important;
+font-size:16px;
+}
+a.tagl5 {
+color:#FF6600 !important;
+font-size:18px;
+}
+.titlelist li {
+background:transparent url(/bp/images/fervor/dot.gif) no-repeat scroll 8px 9px;
+height:1.6em;
+margin:3px 0;
+overflow:hidden;
+}
+.titlelist li a {
+padding-left:16px;
+}
+.titlelist li cite {
+float:right;
+overflow:hidden;
+padding:0 10px 0 0;
+text-align:right;
+width:90px;
+}
+.titlelist li cite a {
+color:#666666;
+padding:0;
+}
+.postbtn, .replybtn, #modopt, #modopttmp {
+color:#009999;
+cursor:pointer;
+float:left;
+margin-right:10px;
+}
+#modopt, #modopttmp, .threadlist tfoot a {
+background-color:#FFFFFF;
+border-color:#B8BEB4 #D2DACE #D2DACE #B8BEB4;
+border-style:solid;
+border-width:1px;
+line-height:20px;
+padding:0 16px 0 6px;
+}
+.threadlist tfoot a {
+margin-right:5px;
+padding:3px 16px 3px 3px;
+}
+#modopt:hover, #modopttmp:hover, .threadlist tfoot a:hover {
+color:#009999;
+text-decoration:none;
+}
+.postbtn, .replybtn {
+background:transparent url(/bp/images/fervor/newtopic.gif) no-repeat scroll 0 0;
+font-size:14px;
+font-weight:700;
+height:30px;
+line-height:28px;
+overflow:hidden;
+text-align:center;
+width:67px;
+}
+.replybtn {
+background-image:url(/bp/images/fervor/reply.gif);
+}
+.postbtn a, .replybtn a {
+color:#FFFFFF;
+display:block;
+letter-spacing:5px;
+padding-left:5px;
+}
+.postbtn a:hover, .replybtn a:hover {
+text-decoration:none;
+}

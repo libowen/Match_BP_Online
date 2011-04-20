@@ -1,0 +1,17 @@
+#header .wrap { padding: 0 0 4px; background: url(/bp/images/fervor/header.gif) no-repeat 0 100%; }
+#menu { height: 25px; }
+#menu li { padding-left: 5px; }
+	#menu li a, #menu li a:hover { padding: 0 20px 0 15px; border: none; background: transparent url(/bp/images/fervor/menu.gif) no-repeat 100% -30px; }
+		#menu li a:hover { color: #CC3366; }
+	#menu li.current { background-color: #CC3366; background-position: 0 -60px; }
+		#menu li.current a, #menu li.current a { height: 25px; background-position: 100% -90px; color: #FFFFFF; }
+	#menu li a.dropmenu { background: transparent url(/bp/images/fervor/menu.gif) no-repeat 100% -120px; }
+#nav { background-image: url(/bp/images/fervor/nav.gif); }
+.shadowline { border-top-color: #7F0D2A; border-bottom-color: #FBEDF1; }
+.side .shadowline { border-top-color: #7F0D2A; border-bottom-color: #C36; }
+.sidebox h4, .with_side .sidebox h4 a {color: #D14875 !important; }
+.with_side .side, .with_side .side a, .side .textinfolist li a, #infoside .taglist a.tagl1 { color: #F6DAE3 !important; }
+	.with_side .side .popupmenu_popup, .with_side .side .popupmenu_popup a, .special .side a { color: #444444 !important; }
+#footer .pipe { color: #F6DAE3; }
+.postbtn { background-image: url(/bp/images/fervor/post.gif) !important; }
+#ad_headerbanner { margin: 25px 0 30px; }

@@ -1,0 +1,329 @@
+body {
+	scrollbar-face-color: #eeeeee;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #dee3e7;
+	scrollbar-3dlight-color: #d1d7dc;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #ededed;
+	scrollbar-darkshadow-color: #98aab1;
+	color: #CCCCCC;
+		width:100%;
+		height:100%;
+}
+font,body,p,td,input,textarea,select,a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #333333;
+	text-decoration: none;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+	font-family: "宋体";
+	font-size: 12px;
+}
+a:hover {
+	color: #777777;
+	text-decoration: underline;
+	font-family: "宋体";
+	font-size: 12px;
+}
+a.nav:link {
+	font-weight: bold; color: #999999; text-decoration: none
+}
+a.nav:visited {
+	font-weight: bold; color: #000000; text-decoration: none
+}
+a.nav:hover {
+	font-weight: bold; color: #999999
+}
+a.menulink:link {
+	text-decoration: none
+}
+a.menulink:visited {
+	text-decoration: none
+}
+a.menulink:hover {
+	text-decoration: none
+}
+.China-12-FFFFFF-20 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.China-12-FFFFFF-20:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #cccccc;
+	text-decoration: none;
+}
+.China-12-333333-20 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+.China-12-333333-20:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #ff0000;
+	text-decoration: none;
+}
+.input-1 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.English-10-333333 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.English-10-333333:hover {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #ff0000;
+	text-decoration: none;
+}
+.English-10-FFFFFF-20 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.English-10-FFFFFF-20:hover {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #cccccc;
+	text-decoration: none;
+}
+.English-10-999999-20 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #999999;
+	text-decoration: none;
+}
+.English-10-FF6699 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #FF3399;
+	text-decoration: none;
+}
+.China-12-999999-20 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+}
+.China-16-333333-20 {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+.photo-01 {
+	background-attachment: fixed;
+	background-image: url(/bp/imag/bg_board_bull.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+/*以上是默认的*/
+/*。。。。。。。。。。。。。。。。。。。*/
+/*以下是具体控制的*/
+/* logo的样式，控制td */
+.logoimage {
+	background:url(/bp/image/logo.jpg) center no-repeat;
+}
+
+
+/*新建比赛、修改比赛的录入显示框*/
+.Lxinjian {
+   width:100%;
+}
+.Lxinjian tr:hover {
+    background-color:#FFFF99;
+}
+.Lxinjian td,input,select {
+	font-size: 14px;
+	text-align: center;
+}
+
+/*赛事列表*/
+/*
+.Lssliebiao {
+    width: 100%;
+}*/
+.Lssliebiao tr:hover {
+    background-color:#FFFF99;
+}
+.Lssliebiao a{
+    color: #0000CC;
+}
+.Lssliebiao td,input,select {
+    font-size: 12px;
+	text-align: center; 
+}
+
+/*编排的界面*/
+.Lbianpai{
+    width: 600px;
+}
+.Lbianpai tr:hover {
+    background-color:#FFFF99;
+}
+.Lbianpai a,td,input,select {
+	font-size: 14px;
+	text-align: center;
+}
+
+/*等分的界面*/
+.Ldengfen{
+    width: 600px;
+}
+.Ldengfen tr:hover {
+    background-color:#FFFF99;
+}
+.Ldengfen a,td,input,select {
+	font-size: 14px;
+	text-align: center;
+}
+
+/*选手管理的选手显示列表（修改、删除选手的）*/
+.Lxsliebiao td,input,select {
+   	font-size: 14px;
+    text-align: center;
+}
+.Lxsliebiao tr:hover {
+    background-color:#FFFF99;
+}
+.Lxsliebiao a{
+     color: #0000CC;
+}
+
+/* 表格输出首页：表格配置信息填写表单的显示 */
+.scpeizhi {
+   margin:0 auto;
+   width:660px;
+}
+.scpeizhi td,input,select {
+	font-size: 14px;
+    text-align: center;
+}
+.scpeizhi a{
+     color: #0000CC;
+}
+.scpeizhi tr:hover {
+    background-color:#FFFF99;
+}
+
+/*一般的左侧内容样式*/
+.Ltable {
+     border:0px;
+}
+.Ltable td,input,select {
+   	font-size: 14px;
+    text-align: center;
+}
+
+
+/* 共用的tr内边界区域 */
+.Lbianpai td,.Ldengfen td,.Lssliebiao td,.Lxsliebiao td{
+   padding:3px 0px;
+}
+
+
+
+
+.China-12-333333-20 a:hover {
+	font-family: "宋体";
+	font-size: 16px;
+	line-height: 20px;
+	color: blue;
+	text-decoration: none;
+}
+
+/*下面使导航栏不同页面的不同显示*/
+.China-12-333333-20-checked a{
+	font-family: "宋体";
+	font-weight:bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: blue;
+	text-decoration: none;
+}
+.China-12-333333-20-checked {
+	background-color: #B4B4B4;
+}
+/*。。。。。。。。。。。。。。。。。。。*/
+
+
+
+/*兼容IE表格空值时，也显示格线*/
+table {
+empty-cells:show;
+border-collapse:collapse;
+}
+
+
+/*还是分别控制的好，不然bianpai显示就有问题了*/
+/*
+#LeftContent tr:hover {
+    background-color:#FFFF99;
+}
+*/
+
+/* 修改选手页面的选手信息统计显示 */
+#tongji {
+	width:100%;
+	height:160px;
+	border:#FF9900 double 3px;
+	background-color: #F0F0F0;
+}
+#tongji td,#tongji select,#tongji input,#tongji {
+	text-align:center;
+	font-size:18px;
+}
+#tongji select {
+	text-align:left;
+	width:200px;
+}
+#tongji td {
+	border-bottom: groove #B6B6B6 2px;
+}
+#paicuotishi {
+	text-align:center;
+}
+
+/* 用户会员登录入口（首页的） */
+#userEnter td {
+height:30;
+padding:2px 0;
+}
+
+/* 单行上色 */
+.dantr {
+	background-color:#EEEEEE;
+}
+
+/* 安全层的样式 */
+#safeDiv {
+	display:none;
+	background-color:#CCCCCC;
+	filter:Alpha(opacity=60);
+	background:url(/bp/image/safebg.png) repeat top left;
+	width:100%;
+	height:100%;   /*依赖body即父节点的width必须先设置 */
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:99;
+}
+/*。。。。。。。。。。。。。。。。。。。*/

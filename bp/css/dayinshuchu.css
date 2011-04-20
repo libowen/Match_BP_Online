@@ -1,0 +1,26 @@
+/* CSS Document */
+
+	.S{
+		margin:0;
+		width: auto;
+	}
+	.A4S{
+		width: auto;
+		height: auto;
+		border-bottom:0;
+	}
+	.content {
+		margin:0;
+	}
+    #gongju{
+    display:none;
+    } 
+    .gongju{
+    display:none;
+    }
+	#gongjuhe{
+    display:none;
+    } 
+    .gongjuhe{
+    display:none;
+    }

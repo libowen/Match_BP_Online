@@ -1,0 +1,215 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background: url(/bp/image/T/002.jpg) #999999;
+	padding-left:auto;
+	padding-right:auto;
+}
+/*分页符，打印时才有效*/
+.fenyefu {
+    width:0;
+	height:0;
+	page-break-after:always;
+}
+
+/*指定了A4纸（竖式）的宽*/
+.S{
+    margin: 15mm auto;
+	width: 210mm;
+	background:#FFFFFF;
+}
+/*A4纸（竖式）的规格；3！位置不能改变，页面调用js来指定修改height297mm属性*/
+.A4S{
+    width: 210mm;
+	height: auto;
+	border-bottom: double;
+	overflow:auto;
+	display:block;
+}
+
+
+
+/*指定了A4纸（横式）的宽*/
+.H{
+	width: 297mm;
+	padding:15mm;
+
+}
+/*A4纸（横式）的规格；5！位置不能改变，页面调用js来指定修改height210mm属性*/
+.A4H{
+    width: 297mm;
+	height: auto;
+	border-bottom: double;
+	overflow:auto;
+	background:#FFFFFF;
+	display:block;
+}
+
+/*内容table*/
+.content {
+	margin:28mm 0mm;
+}
+#content {
+	margin:28mm 0mm;
+}
+
+/*兼容IE表格空值时，也显示格线*/
+table {
+empty-cells:show;
+border-collapse:collapse;
+}
+
+
+/*记分单_横式*/
+.jifendanHS td{
+   text-align:center;
+   font-size:14px;
+   font-weight:bold;
+}
+
+
+/*记分单_简约式*/
+.jifendanJS td{
+   text-align:center;
+   font-size:14px;
+   font-weight:bold;
+}
+
+/*++++++++++++++++++++++++*/
+/*工具盒相关的样式*/
+.gongjuhe {
+	width: 600px;
+	height: auto;
+	border: 2px solid red;
+	background-color: #EFEFEF;
+	 right:0;
+	 bottom:0; 
+	z-index: 9999;	 
+}
+
+.gongjuhe table {
+	width:100%;
+	height:100%;
+}
+
+.gongjuhe a,td,th,input,select {
+	font-size: 16px;
+	text-align: center;
+}
+
+.gongju input,.gongju,.gongju td{
+font-size:14px!important ;
+}
+
+.zhongjian {
+	width:200px;
+	height:auto;
+}
+.zhongjian,.zhongjian input{
+text-align:left;
+}
+
+.dibiao {
+text-align:center;
+font-weight:bold;
+vertical-align:middle;
+}
+/*工具盒相关的样式*/
+
+/*打印的样式变动，似乎遨游要放在最后才起作用，其他浏览器未知*/
+@media print {
+@import url("dayinshuchu.css") print;
+	.S{
+		margin:0;
+		width: auto;
+	}
+	.A4S{
+		width: auto;
+		height: auto;
+		border-bottom:0;
+	}
+	.H{
+		margin:0;
+		width: auto;
+	}
+	.A4H{
+		width: auto;
+		height: auto;
+		border-bottom:0;
+	}
+	.content {
+		margin:0;
+	}
+	#content {
+		margin:0;
+    }
+     #gongju{
+    display:none;
+    } 
+    .gongju{
+    display:none;
+    }
+	#gongjuhe{
+    display:none;
+    } 
+    .gongjuhe{
+    display:none;
+    }
+} 
+
+/*个人成绩表的界面*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.biaoti{
+	font-family:"黑体";
+	font-size:26px;
+    
+}
+
+.GRcj {
+width:257mm;
+}
+
+a,td,th,input,select{
+	font-size: 16px;
+	text-align: center;
+}
+
+a {
+	text-decoration:none;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.xianshou {
+width:26px;
+font-family:"黑体";
+font-weight:bold;
+text-align:right;
+background-color:#ffff99;
+}
+.houshou {
+width:26px;
+font-family:"宋体";
+text-align:right;
+background-color:#CCCCCC;
+}
+.jifen {
+width:26px;
+text-align:right;
+}
+.xuhao {
+text-align:right;
+}
+
+.dsjfbiaoti {
+   font-size:small;
+}
+
+.shujutable tr:hover {
+	background-color:#ffff99;
+boder:2px solid red;
+}

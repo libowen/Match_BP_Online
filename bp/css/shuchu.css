@@ -1,0 +1,105 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	background:url(/bp/image/bg.png) #000000;
+	padding-left:auto;
+	padding-right:auto;
+	text-align:center;
+}
+/*分页符，打印时才有效*/
+.fenyefu {
+    width:0;
+	height:0;
+	page-break-after:always;
+}
+
+/*指定了A4纸（竖式）的宽*/
+.S{
+    /*margin: 15mm auto;*/
+	width: 210mm;
+	padding:0;
+    margin:0 auto;
+	background:#FFFFFF;
+}
+/*A4纸（竖式）的规格；3！位置不能改变，页面调用js来指定修改height297mm属性*/
+.A4S{
+    width: 210mm;
+	height: auto;
+	border-bottom: double;
+	overflow:auto;
+	display:block;
+}
+
+
+
+/*指定了A4纸（横式）的宽*/
+.H{
+	width: 297mm;
+	padding:15mm;
+	margin:0 auto;
+
+}
+/*A4纸（横式）的规格；5！位置不能改变，页面调用js来指定修改height210mm属性*/
+.A4H{
+    width: 297mm;
+	height: auto;
+	border-bottom: double;
+	overflow:auto;
+	background:#FFFFFF;
+	display:block;
+}
+
+/*内容table*/
+.content {
+	margin:26mm 0mm;
+}
+#content {
+	margin:26mm 0mm;
+}
+
+/*兼容IE表格空值时，也显示格线*/
+table {
+empty-cells:show;
+border-collapse:collapse;
+}
+
+/*兼容IE表格，统一黑色格线*/
+table,tr,td,th{
+border-color:#000000;
+}
+
+/*记分单_横式*/
+.jifendanHS td{
+   text-align:center;
+   font-size:14px;
+   font-weight:bold;
+}
+
+
+/*记分单_简约式*/
+.jifendanJS td{
+   text-align:center;
+   font-size:14px;
+   font-weight:bold;
+}
+
+/* 单行上色 必须是tr上的，否则无法改动行背景色！ */
+.dantr {
+	background-color:#EEEEEE;
+}
+
+
+
+
+
+/*各表格的个性设置*/
+/*
+a,td,th{
+    height: 26px;
+	font-size: 18px;
+	text-align: center;
+}
+*/
+
+
